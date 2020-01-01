@@ -68,6 +68,7 @@ public class BookDaoImpl implements BookDao {
 		if (BookUtil.bookSelect(book)) {
 			String sql = "update book set book_id = book_id";
 			StringBuffer sb = new StringBuffer(sql);
+			//这里之前用else if了
 			if (StringUtil.isNotEmpty(book.getName())) {
 				sb.append(",book_name=" + "'"+book.getName()+"'");
 			}
