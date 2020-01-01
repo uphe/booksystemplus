@@ -39,7 +39,7 @@ CREATE TABLE `book` (
 
 LOCK TABLES `book` WRITE;
 /*!40000 ALTER TABLE `book` DISABLE KEYS */;
-INSERT INTO `book` VALUES ('100','朝花夕拾','鲁迅','清华大学','文学',1);
+INSERT INTO `book` VALUES ('100','朝花夕拾','鲁迅','清华大学','文学',0);
 /*!40000 ALTER TABLE `book` ENABLE KEYS */;
 UNLOCK TABLES;
 
